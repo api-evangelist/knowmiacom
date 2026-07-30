@@ -1,22 +1,73 @@
 aid: knowmiacom
 name: Knowmia.com
-description: Knowmia.com is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Knowmia was an education-focused video platform used by instructors to
+  create, share, and assign instructional video and lessons. The brand was operated
+  by TechSmith alongside Camtasia and Snagit, and was marketed as Knowmia and Knowmia
+  Pro for classroom and campus video. TechSmith retired Knowmia Pro in early 2025 and
+  now directs former Knowmia customers to TechSmith Screencast, which offers comparable
+  asynchronous video sharing, commenting, and review and integrates with Snagit and
+  Camtasia. As of July 2026 knowmia.com issues an HTTP 301 redirect to the TechSmith
+  Screencast product page. Knowmia publishes no public API, developer portal, SDKs,
+  CLI, or machine-readable specifications; this profile is retained in the API Evangelist
+  network as a retired/absorbed entry for historical and lineage purposes.'
 url: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.techsmith.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: retired
+x-successor: TechSmith Screencast
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Video
+- Screen Recording
+- Learning
+- Retired
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://knowmia.com
+- type: Successor
+  url: https://www.techsmith.com/screencast/
+- type: Lifecycle
+  url: lifecycle/knowmiacom-lifecycle.yml
+- type: Deprecation
+  url: https://www.techsmith.com/knowmia-education.html
+- type: WellKnown
+  url: well-known/knowmiacom-well-known.yml
+- type: DomainSecurity
+  url: security/knowmiacom-domain-security.yml
+- type: Packages
+  url: packages/knowmiacom-packages.yml
+- type: LLMsTxt
+  url: llms/knowmiacom-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
