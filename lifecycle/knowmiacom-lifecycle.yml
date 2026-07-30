@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.techsmith.com/knowmia-education.html
+status: retired
+summary: >-
+  Knowmia Pro was retired by TechSmith in early 2025. TechSmith directs former
+  Knowmia customers to TechSmith Screencast as the replacement product. The
+  knowmia.com domain is still registered and serves an HTTP 301 redirect chain
+  into the TechSmith Screencast product page.
+deprecation:
+  policy_url: https://www.techsmith.com/knowmia-education.html
+  announcement: Knowmia Pro was retired by TechSmith in early 2025.
+  retired_on: '2025'
+  successor:
+    name: TechSmith Screencast
+    url: https://www.techsmith.com/screencast/
+  sunset_header: false
+redirects:
+- from: https://knowmia.com/
+  status: 301
+  to: https://www.techsmith.com/knowmia-education.html
+- from: https://www.techsmith.com/knowmia-education.html
+  status: 301
+  to: https://www.techsmith.com/screencast.html
+- from: https://www.techsmith.com/screencast.html
+  status: 301
+  to: https://www.techsmith.com/screencast/
+versioning: null
+sla: null
+status_page: null
+deprecated_operations: []
+notes: >-
+  No public API was ever published under knowmia.com, so there are no deprecated
+  API operations to enumerate. This lifecycle record captures product-level
+  retirement, not API version deprecation.

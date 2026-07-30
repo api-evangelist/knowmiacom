@@ -1,0 +1,37 @@
+# Knowmia.com
+
+> Knowmia was an education-focused video platform for creating, sharing, and assigning
+> instructional video and lessons. It was operated by TechSmith alongside Camtasia and
+> Snagit and marketed as Knowmia / Knowmia Pro. TechSmith retired Knowmia Pro in early
+> 2025 and directs former customers to TechSmith Screencast. As of July 2026,
+> knowmia.com issues an HTTP 301 redirect to the TechSmith Screencast product page.
+> Knowmia publishes no public API, developer portal, SDKs, CLI, or machine-readable
+> API specifications.
+
+Generated: 2026-07-19
+Method: generated (from apis.yml + repository artifacts; no provider /llms.txt is published)
+Status: retired
+
+## APIs
+
+- None. Knowmia never published a public API.
+
+## Successor
+
+- [TechSmith Screencast](https://www.techsmith.com/screencast/): the TechSmith product
+  recommended to former Knowmia Pro customers.
+- [Knowmia retirement notice](https://www.techsmith.com/knowmia-education.html): TechSmith
+  page stating Knowmia Pro was retired in early 2025.
+
+## Artifacts in this profile
+
+- [Lifecycle](lifecycle/knowmiacom-lifecycle.yml): product retirement, successor, redirect chain.
+- [Well-Known](well-known/knowmiacom-well-known.yml): /.well-known/ probe results (all 301, no documents).
+- [Domain security](security/knowmiacom-domain-security.yml): TLS, HSTS, DNSSEC, CAA, SPF, DMARC probe.
+- [Packages](packages/knowmiacom-packages.yml): registry probe results (none found).
+
+## Notes for agents
+
+- There is no Knowmia API to call. Do not attempt to construct endpoints under knowmia.com.
+- Any request to knowmia.com returns a 301 redirect into TechSmith marketing pages.
+- If a task requires the successor product, work from TechSmith's own developer surface, not this profile.

@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://knowmia.com/.well-known/*
+host: https://knowmia.com
+note: >-
+  Every /.well-known/ path on knowmia.com returns HTTP 301 to
+  https://www.techsmith.com/screencast/ (an HTML marketing page), so no discovery
+  document is actually published. Following redirects yields 200 text/html, which
+  is a false positive — the direct status is recorded below. The successor host
+  www.techsmith.com returns 404 for all of the same paths.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+  redirect: https://www.techsmith.com/screencast/
+  document: false
+- path: /.well-known/openid-configuration
+  status: 301
+  redirect: https://www.techsmith.com/screencast/
+  document: false
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  redirect: https://www.techsmith.com/screencast/
+  document: false
+- path: /.well-known/api-catalog
+  status: 301
+  redirect: https://www.techsmith.com/screencast/
+  document: false
+- path: /.well-known/ai-plugin.json
+  status: 301
+  redirect: https://www.techsmith.com/screencast/
+  document: false
+successor_host:
+  host: https://www.techsmith.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  npm registry search API, PyPI JSON API, RubyGems search API, GitHub org lookup
+  (2026-07-19)
+packages: []
+registries_probed:
+- registry: npm
+  query: knowmia
+  results: 0
+- registry: pypi
+  project: knowmia
+  status: 404
+- registry: rubygems
+  query: knowmia
+  results: 0
+- registry: github
+  org: knowmia
+  status: 403
+note: >-
+  No first-party Knowmia client libraries or SDKs exist on any public package
+  registry. Knowmia never shipped a public API, and the product was retired by
+  TechSmith in early 2025. Empty is the correct, verified result.
