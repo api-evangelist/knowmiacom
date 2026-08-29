@@ -11,6 +11,17 @@ description: 'Knowmia was an education-focused video platform used by instructor
   CLI, or machine-readable specifications; this profile is retained in the API Evangelist
   network as a retired/absorbed entry for historical and lineage purposes.'
 url: https://raw.githubusercontent.com/api-evangelist/knowmiacom/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
