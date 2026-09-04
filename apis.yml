@@ -33,6 +33,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://knowmia.com', status: 301, note: 'declared website redirects to https://www.techsmith.com/screencast/ — a different registrable domain (knowmia.com -> techsmith.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://www.techsmith.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
