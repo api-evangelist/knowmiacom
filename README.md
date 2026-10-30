@@ -64,31 +64,46 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: retired.** Knowmia was an education-focused video platform for creating, sharing,
-and assigning instructional video and lessons. It was operated by TechSmith alongside
-Camtasia and Snagit and marketed as Knowmia / Knowmia Pro.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-TechSmith [retired Knowmia Pro in early 2025](https://www.techsmith.com/knowmia-education.html)
-and directs former customers to [TechSmith Screencast](https://www.techsmith.com/screencast/).
-As of July 2026, `https://knowmia.com/` returns an HTTP 301 redirect chain ending at the
-TechSmith Screencast product page.
+**Status:** retired
 
-Knowmia publishes no public API, developer portal, SDKs, CLI, or machine-readable API
-specification. No `/.well-known/` discovery documents and no `llms.txt` are served — every
-path 301-redirects to TechSmith marketing. No first-party client libraries exist on npm,
-PyPI, RubyGems, or GitHub.
+Knowmia was an education-focused video platform used by instructors to create, share, and assign instructional video and lessons. The brand was operated by TechSmith alongside Camtasia and Snagit, and was marketed as Knowmia and Knowmia Pro for classroom and campus video. TechSmith retired Knowmia Pro in early 2025 and now directs former Knowmia customers to TechSmith Screencast, which offers comparable asynchronous video sharing, commenting, and review and integrates with Snagit and Camtasia. As of July 2026 knowmia.com issues an HTTP 301 redirect to the TechSmith Screencast product page. Knowmia publishes no public API, developer portal, SDKs, CLI, or machine-readable specifications; this profile is retained in the API Evangelist network as a retired/absorbed entry for historical and lineage purposes.
 
-This profile is retained as a historical / lineage entry in the API Evangelist network.
+**Areas:** Company · Education · EdTech · Video · Screen Recording · Learning · Retired · Acquired
 
-## Artifacts
+## Knowmia.com on APIs.io (historical record)
 
-| Artifact | File |
-|---|---|
-| Lifecycle (retirement + successor) | `lifecycle/knowmiacom-lifecycle.yml` |
-| Well-Known probe | `well-known/knowmiacom-well-known.yml` |
-| Domain security probe | `security/knowmiacom-domain-security.yml` |
-| Packages (verified none) | `packages/knowmiacom-packages.yml` |
-| llms.txt | `llms/knowmiacom-llms.txt` |
+Everything profiled for Knowmia.com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/knowmiacom/](https://apis.io/providers/knowmiacom/)** — or go straight to one of the APIs or properties below.
 
-Backed by: a16z (per the portfolio source that surfaced this lead; unverified against
-Knowmia's own funding history).
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Knowmiacom Domain Security](https://apis.io/security/knowmiacom/knowmiacom-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://knowmia.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Knowmia.com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/knowmiacom/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
